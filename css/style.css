@@ -1,0 +1,211 @@
+/*Estilos de las fuentes*/
+@font-face {
+    font-family: 'Odibee Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/odibeesans/v4/neIPzCSooYAho6WvjeToRbk1cJA.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/amaranth/v11/KtkuALODe433f0j1zMnFHdA.woff2) format('woff2');
+  }
+
+.etiqueta-h1 {
+    color: #fff;
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 40px;
+}
+
+.etiqueta-h2 {
+    color: #bf1363;
+    filter: drop-shadow(0px 5px 5px rgba(226, 76, 133, 0.7));
+    font-family: 'Odibee Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.etiqueta-h3-1 {
+    color: #f54748;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.etiqueta-h3-2 {
+    color: #4a1c40;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+span {
+    color: #fff;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 18px;
+}
+
+p {
+    color: #fff;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 18px;
+}
+
+/*Fin estilos de las fuentes*/
+
+/*Estilos de la barra de desplazamiento*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bf1363;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+}
+
+/*Fin estilos de la barra de desplazamiento*/
+
+/*Estilos del menú de navegación*/
+.color-menu {
+    background-color: #892cdc;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#btn-menu {
+    background-color: #bc6ff1;
+    padding: 10px;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.nav-item:hover {
+    background-color: #bc6ff1;
+    border-radius: 5px;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.iconos {
+    color: #4a1c40;
+    margin-right: 5px;
+}
+
+/*Fin estilos del menú de navegación*/
+
+/*Estilos de la cabecera*/
+.imagen-cabecera {
+    max-height: 50vh;
+    overflow: hidden;
+}
+
+.cocteles {
+    display: block;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.7));
+    margin: auto;
+    width: 500px;
+}
+
+#btn-contacto {
+    background-color: #21325E;
+    padding: 10px;
+    margin: auto;
+    transition: .3s all ease-in;
+    width: 150px;
+}
+
+#btn-contacto:hover,
+#btn-contacto:focus {
+    background-color: #00B4D8;
+    box-shadow: 0px 5px 20px 0px #00B4D8;
+}
+
+/*Fin estilos de la cabecera*/
+
+/*Estilos del color de fondo de la página web*/
+.color-fondo {
+    background-color: #bc6ff1;
+}
+
+/*Fin estilos del color de fondo de la página web*/
+
+/*Estilos de la sección 1, 2, 3 y 4*/
+.seccion {
+    background-color: #fff;
+}
+
+.fa-wine-bottle {
+    margin-right: 5px;
+}
+
+.fa-glass-martini-alt {
+    margin-left: 5px;
+}
+
+.coctel {
+    display: block;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.7));
+    margin: auto;
+    width: 300px;
+}
+
+/*Fin estilos de la sección 1, 2, 3 y 4*/
+
+/*Estilos del pie de página*/
+.color-pie-pagina {
+    background-color: #892cdc;
+}
+
+.lista {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.enlace {
+    text-decoration: none;
+}
+
+.redes-sociales {
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.7));
+    margin-right: 12px;
+    width: 50px;
+}
+
+.corazon {
+    color: #d63447;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation: latidos 1s infinite;
+}
+
+@keyframes latidos {
+    from {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+/*Fin estilos del pie de página*/
